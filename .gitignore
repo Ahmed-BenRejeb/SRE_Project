@@ -1,0 +1,29 @@
+# game master logs — don't read these
+.gamemaster/
+
+# data
+data/
+*.root
+*.parquet
+
+# secrets / env
+.env
+.envrc.local
+*.pem
+kubeconfig*
+
+# terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+
+# go / python
+bin/
+dist/
+__pycache__/
+.venv/
+.ruff_cache/
+
+scratch/
