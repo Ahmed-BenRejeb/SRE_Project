@@ -1,0 +1,14 @@
+# Overrides only. Full defaults: helm show values argo/argo-cd --version 10.17.0
+
+dex:
+  enabled: false          # SSO, not needed locally
+
+notifications:
+  enabled: false          # Slack/email notifications, not needed
+
+applicationSet:
+  replicas: 0             # app-of-apps doesn't need ApplicationSets
+
+configs:
+  params:
+    server.insecure: true # serve plain HTTP, so port-forward works without TLS warnings
