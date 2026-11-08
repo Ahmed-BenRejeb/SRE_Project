@@ -1,5 +1,5 @@
 # T00 — Walking skeleton
-Status: todo · Arc 0
+Status: doing · Arc 0
 
 The steps are in `START_HERE.md`. This is the only ticket that has steps.
 
